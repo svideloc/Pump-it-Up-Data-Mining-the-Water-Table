@@ -1,7 +1,6 @@
-def DataCleaner(train_set_values_df, train_set_labels_df):
+def DataCleaner(values_df, labels_df):
 
-
-	df= pd.merge(values_df, labels_df, on = 'id' )
+    df= pd.merge(values_df, labels_df, on = 'id' )
 
     #Fills in the mod
     for col in df.columns[df.isna().sum() > 0]:
@@ -22,7 +21,6 @@ def DataCleaner(train_set_values_df, train_set_labels_df):
     df.drop(columns = 'date_recorded', inplace = True)
 
     # df.to_csv('cleaned_columns_dropped.csv')
-
     #target encode
     target = 'status_group'
     lst_te = ['wpt_name', 'basin', 'region', 'district_code', 'lga', 'ward', 'scheme_management','installer','source']
