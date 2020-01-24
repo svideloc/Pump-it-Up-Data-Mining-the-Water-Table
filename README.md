@@ -23,7 +23,7 @@ In this README we will discuss our process for data cleaning, our insights in th
 
 ### Data Cleaning
 
-The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. The data comes from the drivendata.org for the competition Pump it Up: Data Mining the Water Table.
+The original training dataset is found on 'train_set_values.csv', 'train_set_labels.csv'. The test set can be found on 'test_set_values.csv'. The data comes from the drivendata.org for the competition Pump it Up: Data Mining the Water Table (https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/).
 
 For our cleanup, we created a preprocessor file (preprocessor.py). In the preprocessor we have the following steps:
     - Merged the 'train_set_values.csv', 'train_set_labels.csv'.
@@ -40,7 +40,7 @@ Binary Model
   - Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good       results (79% accuracy).
 
 
-Final Model...
-  - Can be found in the file 
+Final Model
+  - Can be found in the file 'XGBoost_with_SMOTE'
   - Had the three different targets ("functional", "functional needs repair" and "non functional").
-  - We got an accuracy score of
+  - We got an accuracy score of 80.59% (top 15% of competition) 
