@@ -34,13 +34,13 @@ For our cleanup, we created a preprocessor file (preprocessor.py). In the prepro
 
 ### Models
 
-    Binary Model
-      - Can be found in the file "Binary_Simplified_Model.ipynb".
-      - Combined the targets "functional" and "functional needs repair" into one.
-      - Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good       results (79% accuracy).
+Binary Model
+  - Can be found in the file "Binary_Simplified_Model.ipynb".
+  - Combined the targets "functional" and "functional needs repair" into one.
+  - Due to the small amount of "functional needs repair" target, the simplification was still able to get relatively good       results (79% accuracy).
 
 
-    Final Model...
-      - Can be found in the file 
-      - Had the three different targets ("functional", "functional needs repair" and "non functional").
-      - We got an accuracy score of
+Final Model...
+  - Can be found in the file 
+  - Had the three different targets ("functional", "functional needs repair" and "non functional").
+  - We got an accuracy score of
